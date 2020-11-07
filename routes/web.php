@@ -12,3 +12,7 @@
 */
 
 Route::get('/','MastersController@index')->name('top');
+
+// Route::get('/', function () {
+//   return view('welcome');
+// });
