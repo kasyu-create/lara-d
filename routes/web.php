@@ -12,6 +12,7 @@
 */
 
 Route::get('/','MastersController@index')->name('top');
+Route::resource('masters', 'MastersController',['only'=>['create','store']]);
 
 // Route::get('/', function () {
 //   return view('welcome');
